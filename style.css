@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #052913 16.62%, #a76a5c 85.61%);
+} 
+.cabeçalho-logo {
+    height: 120px;
+}
+.cabeçalho-logo:hover{
+    height: 150px;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabeçalho-Menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabeçalho-Menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabeçalho-Menu-item:hover{
+    text-decoration: underline
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.conteudo-Logo{
+    height: 420px;
+}
+
+.seção-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-Nome{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+.conteudo-descrição{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+.conteudo-botão{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.conteudo-botão:hover{
+    background-color: #a79d9b;
+}
+
+.seção-2{
+    margin-left: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+    margin-top: 48px;
+
+}
+.conteudo-café{
+height: 120px;
+}
+
+.conteudo-opçoes{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 24px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+    margin-bottom: 16px;
+}
+.conteudo-cardapio{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+.conteudo-cardapio-2{
+    margin-top: 64px;
+    margin-left: 400px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff2e7;
+}
+.conteudo-botão-2{
+    margin-left: 620px;
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+.conteudo-botão-2:hover{
+    background-color: #a79d9b;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:#fcfcfc
+}
+
+.contato{
+    display: flex;
+    gap: 600px;
+}
+
+.contato-link:hover{
+    text-decoration: underline
+}
+
+.contato-sol:hover{
+    text-decoration: underline
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#divBusca{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
